@@ -8,17 +8,17 @@
 
 import Foundation
 
-class Monster: Copying {
+final class Monster: Copying {
     
     var health: Int
     var level: Int
     
-    init(health: Int, level: Int) {
+    required init(health: Int, level: Int) {
         self.health = health
         self.level = level
     }
     
-    required convenience init(_ prototype: Monster) {
+    convenience init(_ prototype: Monster) {
         self.init(health: prototype.health, level: prototype.level)
     }
     
