@@ -16,6 +16,7 @@
 		1DEDBA7E23BDF3C900510E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DEDBA7C23BDF3C900510E7D /* LaunchScreen.storyboard */; };
 		1DEDBA8923BDF3C900510E7D /* PrototypePatternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBA8823BDF3C900510E7D /* PrototypePatternTests.swift */; };
 		1DEDBA9423BDF3C900510E7D /* PrototypePatternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBA9323BDF3C900510E7D /* PrototypePatternUITests.swift */; };
+		1DEDBAA223BDF3E700510E7D /* Copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBAA123BDF3E700510E7D /* Copy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		1DEDBA8F23BDF3C900510E7D /* PrototypePatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrototypePatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEDBA9323BDF3C900510E7D /* PrototypePatternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypePatternUITests.swift; sourceTree = "<group>"; };
 		1DEDBA9523BDF3C900510E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DEDBAA123BDF3E700510E7D /* Copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Copy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				1DEDBA6E23BDF3BF00510E7D /* AppDelegate.swift */,
 				1DEDBA7023BDF3BF00510E7D /* SceneDelegate.swift */,
 				1DEDBA7223BDF3BF00510E7D /* ViewController.swift */,
+				1DEDBAA123BDF3E700510E7D /* Copy.swift */,
 				1DEDBA7423BDF3BF00510E7D /* Main.storyboard */,
 				1DEDBA7A23BDF3C900510E7D /* Assets.xcassets */,
 				1DEDBA7C23BDF3C900510E7D /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				1DEDBA7323BDF3BF00510E7D /* ViewController.swift in Sources */,
 				1DEDBA7923BDF3BF00510E7D /* PrototypePattern.xcdatamodeld in Sources */,
 				1DEDBA6F23BDF3BF00510E7D /* AppDelegate.swift in Sources */,
+				1DEDBAA223BDF3E700510E7D /* Copy.swift in Sources */,
 				1DEDBA7123BDF3BF00510E7D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
