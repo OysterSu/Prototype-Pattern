@@ -26,6 +26,12 @@ class ViewController: UIViewController {
         monster3.health = 900
         print(monster.health)
         print(monster3.health)
+        
+        let appointment = Appointment(name: "Bob", day: "Mon", place: "Joe's Bar")
+        let appointment2 = appointment.copy()
+        appointment.name = "Tom"
+        print(appointment.name)
+        print((appointment2 as! Appointment).name)
     }
     
 }
