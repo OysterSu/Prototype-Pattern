@@ -17,6 +17,7 @@ protocol Copying: class {
 extension Copying {
     
     func copy() -> Self {
+        print("1")
         return type(of: self).init(self)
     }
     

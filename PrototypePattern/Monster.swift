@@ -14,11 +14,13 @@ final class Monster: Copying {
     var level: Int
     
     required init(health: Int, level: Int) {
+        print("3")
         self.health = health
         self.level = level
     }
     
     convenience init(_ prototype: Monster) {
+        print("2")
         self.init(health: prototype.health, level: prototype.level)
     }
     
