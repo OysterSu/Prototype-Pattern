@@ -12,11 +12,7 @@ class MessageLogger {
     var messages: [Message] = []
 
     func logMessage(msg: Message) {
-        if let detailed = msg as? DetailedMessage {
-            messages.append(DetailedMessage(to: detailed.to, subject: detailed.subject, from: detailed.from))
-        } else {
-            messages.append(Message(to: msg.to, subject: msg.subject))
-        }
+        messages.append(msg.copy() as! Message)
     }
 
     func proccessMessages(callback: @escaping (Message) -> Void ) {

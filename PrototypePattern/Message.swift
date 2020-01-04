@@ -8,12 +8,16 @@
 
 import Foundation
 
-class Message {
+class Message: NSObject, NSCopying {
     var to: String
     var subject: String
     
     init(to: String, subject: String) {
         self.to = to
         self.subject = subject
+    }
+    
+    func copy(with zone: NSZone? = nil) -> Any {
+        return Message(to: self.to, subject: self.subject)
     }
 }

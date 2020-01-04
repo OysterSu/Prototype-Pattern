@@ -15,4 +15,8 @@ class DetailedMessage: Message {
         self.from = from
         super.init(to: to, subject: subject)  // 為什麼 super.init 不能放前面？
     }
+    
+    override func copy(with zone: NSZone? = nil) -> Any {
+        return DetailedMessage(to: self.to, subject: self.subject, from: self.from)
+    }
 }
