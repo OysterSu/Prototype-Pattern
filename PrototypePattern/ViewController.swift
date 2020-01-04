@@ -41,9 +41,15 @@ class ViewController: UIViewController {
         message.to = "Bob"
         message.subject = "Free for dinner?"
         logger.logMessage(msg: message)
+        
+        logger.logMessage(msg: DetailedMessage(to: "Alice", subject: "Hi!", from: "Joe"))
 
         logger.proccessMessages { (message) in
-            print("Message - To: \(message.to) Subject: \(message.subject)")
+            if let detailed = message as? DetailedMessage {
+                print("Detailed Message - To: \(detailed.to) From: \(detailed.subject)" + " Subject: \(detailed.subject)")
+            } else {
+                print("Message - To: \(message.to) Subject: \(message.subject)")
+            }
         }
     }
     
