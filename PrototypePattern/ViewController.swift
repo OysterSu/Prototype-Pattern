@@ -32,6 +32,19 @@ class ViewController: UIViewController {
         appointment.name = "Tom"
         print(appointment.name)
         print((appointment2 as! Appointment).name)
+        
+        let logger = MessageLogger()
+
+        let message = Message(to: "Joe", subject: "Hello")
+        logger.logMessage(msg: message)
+
+        message.to = "Bob"
+        message.subject = "Free for dinner?"
+        logger.logMessage(msg: message)
+
+        logger.proccessMessages { (message) in
+            print("Message - To: \(message.to) Subject: \(message.subject)")
+        }
     }
     
 }
