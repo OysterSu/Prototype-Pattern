@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DAFE18B23C122E800490348 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFE18A23C122E800490348 /* Message.swift */; };
+		1DAFE18D23C1230D00490348 /* MessagLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAFE18C23C1230D00490348 /* MessagLogger.swift */; };
 		1DEDBA6F23BDF3BF00510E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBA6E23BDF3BF00510E7D /* AppDelegate.swift */; };
 		1DEDBA7123BDF3BF00510E7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBA7023BDF3BF00510E7D /* SceneDelegate.swift */; };
 		1DEDBA7323BDF3BF00510E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DEDBA7223BDF3BF00510E7D /* ViewController.swift */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		1DAFE18A23C122E800490348 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1DAFE18C23C1230D00490348 /* MessagLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagLogger.swift; sourceTree = "<group>"; };
 		1DEDBA6B23BDF3BF00510E7D /* PrototypePattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrototypePattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DEDBA6E23BDF3BF00510E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DEDBA7023BDF3BF00510E7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				1DEDBAA323BDF43500510E7D /* Monster.swift */,
 				1DEDBAA523BE3CCA00510E7D /* Appointment.swift */,
 				1DAFE18A23C122E800490348 /* Message.swift */,
+				1DAFE18C23C1230D00490348 /* MessagLogger.swift */,
 				1DEDBA7423BDF3BF00510E7D /* Main.storyboard */,
 				1DEDBA7A23BDF3C900510E7D /* Assets.xcassets */,
 				1DEDBA7C23BDF3C900510E7D /* LaunchScreen.storyboard */,
@@ -282,6 +285,7 @@
 				1DAFE18B23C122E800490348 /* Message.swift in Sources */,
 				1DEDBAA623BE3CCA00510E7D /* Appointment.swift in Sources */,
 				1DEDBA7123BDF3BF00510E7D /* SceneDelegate.swift in Sources */,
+				1DAFE18D23C1230D00490348 /* MessagLogger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
